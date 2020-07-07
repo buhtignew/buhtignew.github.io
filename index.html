@@ -13,14 +13,14 @@ requiresSemanticCard: true
       TRADE MARKET
     </h5> 
     <div class="ui stackable centered center aligned grid">
-      {% for exchange in site.exchanges %}
-        <div class="five wide column pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
+      {% for explorer in site.exprorers %}
+        <div class="five wide column pointer-cursor" onclick="openUrl('{{ explorer.url }}')">
           <div class="ui raised segment mobile-card">
             <h2 class="ui icon header">
               <img src="{{ '/assets/logo.svg' | prepend: site.baseurl }}" class="ui icon small image">
               <div class="content">
-                {{ exchange.name }}
-                <div class="sub header">{{ exchange.url }}</div>
+                {{ explorer.name }}
+                <div class="sub header">{{ explorer.url }}</div>
               </div>
             </h2>
           </div>
