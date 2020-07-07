@@ -30,17 +30,17 @@ requiresSemanticCard: true
   </div>
   <div class="ui secondary page stackable grid overview segment segment-padding" id="actions">
     <h5 class="ui header center aligned not-on-mobile">
-      EXPLORER
+      TRADE MARKET
     </h5> 
     <div class="ui stackable centered center aligned grid">
-      {% for explorer in site.explorers %}
-        <div class="five wide column pointer-cursor" onclick="openUrl('{{ explorer.url }}')">
+      {% for exchange in site.exchanges %}
+        <div class="five wide column pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
           <div class="ui raised segment mobile-card">
             <h2 class="ui icon header">
               <img src="{{ '/assets/logo.svg' | prepend: site.baseurl }}" class="ui icon small image">
               <div class="content">
-                {{ explorer.name }}
-                <div class="sub header">{{ explorer.url }}</div>
+                {{ exchange.name }}
+                <div class="sub header">{{ exchange.url }}</div>
               </div>
             </h2>
           </div>
