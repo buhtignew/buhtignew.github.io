@@ -85,6 +85,10 @@ exchanges:
 #  - name: CoinHouse # with problems, removed until solved - market removed
 #    url: "https://coinhouse.eu"
 
+exprorers:
+  - name: cryptoID
+    url: "https://chainz.cryptoid.info/slm/"
+    
 wallets:
   - name: Windows
     url: "https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/slimcoin-qt.exe"
