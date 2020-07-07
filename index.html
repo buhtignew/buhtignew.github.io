@@ -10,7 +10,27 @@ requiresSemanticCard: true
 <div class="home">
   <div class="ui secondary page stackable grid overview segment segment-padding" id="actions">
     <h5 class="ui header center aligned not-on-mobile">
-      TRADE MARKETS
+      TRADE MARKET
+    </h5> 
+    <div class="ui stackable centered center aligned grid">
+      {% for exchange in site.exchanges %}
+        <div class="five wide column pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
+          <div class="ui raised segment mobile-card">
+            <h2 class="ui icon header">
+              <img src="{{ '/assets/logo.svg' | prepend: site.baseurl }}" class="ui icon small image">
+              <div class="content">
+                {{ exchange.name }}
+                <div class="sub header">{{ exchange.url }}</div>
+              </div>
+            </h2>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="ui secondary page stackable grid overview segment segment-padding" id="actions">
+    <h5 class="ui header center aligned not-on-mobile">
+      EXPLORER
     </h5> 
     <div class="ui stackable centered center aligned grid">
       {% for exchange in site.exchanges %}
