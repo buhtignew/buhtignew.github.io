@@ -14,7 +14,7 @@ requiresSemanticCard: true
     </h5> 
     <div class="ui stackable centered center aligned grid">
       {% for exchange in site.exchanges %}
-        <div class="five wide column pointer-cursor" onclick="openUrl('{{ explorer.url }}')">
+        <div class="five wide column pointer-cursor" onclick="openUrl('{{ exchange.url }}')">
           <div class="ui raised segment mobile-card">
             <h2 class="ui icon header">
               <img src="{{ '/assets/logo.svg' | prepend: site.baseurl }}" class="ui icon small image">
