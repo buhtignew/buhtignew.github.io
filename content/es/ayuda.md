@@ -12,7 +12,7 @@ En esta sección encontrarás **guías básicas** para Slimcoin. La mayoría de 
 
 **En castellano:**
 
-* [Bajar e instalar Slimcoin](/instalar/) - pasos básicos para correr un cliente de Slimcoin
+* [Bajar e instalar Slimcoin](instalar/) - pasos básicos para correr un cliente de Slimcoin
 
 **En inglés:**
 
