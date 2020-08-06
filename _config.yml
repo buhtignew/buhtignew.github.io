@@ -7,7 +7,7 @@
 
 ## Site settings
 title:
-  en: Slimcoin | A cryptocurrency for the long term.
+  #en: Slimcoin | A cryptocurrency for the long term.
   es: Slimcoin | La criptomoneda duradera y estable.
   #pl: Slimcoin | Długoterminowa kryptowaluta.
   ru: Слимкоин | Криптовалюта для долгосрочной перспективы.
@@ -58,7 +58,7 @@ languagemenu:
   #pl: Języki
   ru: Languages
 mastheadtitle:
-  en: The Next Generation of Cryptocurrencies
+  #en: The Next Generation of Cryptocurrencies
   es: La Próxima Generación de las Criptomonedas
   #pl: Następna generacja kryptowalut
   ru: The Next Generation of Cryptocurrencies
